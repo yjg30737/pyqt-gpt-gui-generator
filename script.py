@@ -108,8 +108,8 @@ class GPTJsonWrapper:
         except Exception as e:
             print(e)
 
-
-# wrapper = GPTJsonWrapper(api_key='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')
+# for test
+# wrapper = GPTJsonWrapper(api_key='')
 # prompt = PROMPT.format('QWidget which can show the three button named from "Alexander1" to "Alexander3" vertically. Background photo is a.png.')
 # for i in range(3):
 #     data = wrapper.get_response(query=prompt)
